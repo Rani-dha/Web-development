@@ -5,13 +5,22 @@
   <title>div and span elements</title>
 </head>
 <body>
+  <p style="margin: 0px 25%; padding: 5px; text-align: center; font-size: 20px; color: green;">The <em>Div-element</em> is the most generic Block level element</p>
+  <p style="margin: 0px 25%; padding: 5px; text-align: center; font: 20px; color: green;">The <em>Span-element</em> is the super generic Inline element</p>
+  <hr>
+  <br><br>
+  <h3 style="color: black;">Example:</h3>
   <div>*** DIV 1: Some content here ***</div>
   <div>*** DIV 2: Following right after div 1 ***</div>
   <span>*** SPAN 1: Following right after div 2 ***</span>
+  <span>*** SPAN 2: Following right after span 1 ***</span>
   <div>
-    *** DIV 3: Following right after span 1 
-    <span>*** SPAN 2: INSIDE div 3 ***</span>
+    *** DIV 3: Following right after span 2
+    <span>*** SPAN 3: INSIDE div 3 ***</span>
     Continue content of div 3 ***
-  </div>
+  </div><br><br>
+  <hr>
+  <p style="text-align: center;"><strong>Warning: Should not use span inside the div element</strong></p>
+  <p style="color: red; text-align: center;">&lt;span&gt; *** SPAN 4: Some content here *** &lt;div &gt; DIV 4: Following right after span 4 *** &lt;&sol;div&gt;  &lt;&sol;span&gt; </p>
 </body>
 </html>
